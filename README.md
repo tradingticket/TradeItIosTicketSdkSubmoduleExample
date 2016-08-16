@@ -1,12 +1,16 @@
 # TradeIt iOS Ticket SDK git submodules
 
-### Add the git submodules
+### Clone git submodules
 
 ```
 git submodule add git@github.com:tradingticket/TradeItIosTicketSdk.git submodules/TradeItIosTicketSdk
 git submodule add git@github.com:tradingticket/TradeItIosEmsApi.git submodules/TradeItIosEmsApi
 git submodule add git@github.com:tradingticket/TradeItIosAdSdk.git submodules/TradeItIosAdSdk
 ```
+
+### Add submodules to project
+
+![File Explorer settings](https://github.com/tradingticket/TradeItIosTicketSdkSubmoduleExample/raw/master/ProjectExplorer.png)
 
 ### Project Settings
 
