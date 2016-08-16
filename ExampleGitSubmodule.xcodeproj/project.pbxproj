@@ -13,6 +13,11 @@
 		75D7B6701D639B9D00FC9DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B66E1D639B9D00FC9DB8 /* Main.storyboard */; };
 		75D7B6721D639B9D00FC9DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B6711D639B9D00FC9DB8 /* Assets.xcassets */; };
 		75D7B6751D639B9D00FC9DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B6731D639B9D00FC9DB8 /* LaunchScreen.storyboard */; };
+		75D7B6A31D639C9800FC9DB8 /* TradeItIosAdSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B69C1D639C4200FC9DB8 /* TradeItIosAdSdk.framework */; };
+		75D7B6A41D639C9800FC9DB8 /* TradeItIosAdSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B69C1D639C4200FC9DB8 /* TradeItIosAdSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75D7B6A91D639CA200FC9DB8 /* libTradeItIosTicketSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B6851D639BFD00FC9DB8 /* libTradeItIosTicketSDK.a */; };
+		75D7B6B41D639DC500FC9DB8 /* libTradeItIosEmsApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B6B11D639DB500FC9DB8 /* libTradeItIosEmsApi.a */; };
+		75D7B7221D63A8E000FC9DB8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B7211D63A8E000FC9DB8 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +41,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = A9A8D0C21B4F0F56000207B9;
 			remoteInfo = FullViewResources;
-		};
-		75D7B6901D639C3800FC9DB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 08CD8B851B338A7500F7E530;
-			remoteInfo = TradeItIosEmsApi;
-		};
-		75D7B6921D639C3800FC9DB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 08CD8B901B338A7500F7E530;
-			remoteInfo = TradeItIosEmsApiTests;
 		};
 		75D7B69B1D639C4200FC9DB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -79,7 +70,42 @@
 			remoteGlobalIDString = 7519E3EB1D591B6B0031DF50;
 			remoteInfo = ExampleAppUITests;
 		};
+		75D7B6A51D639C9800FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7517A3961D4A945500D52880;
+			remoteInfo = TradeItIosAdSdk;
+		};
+		75D7B6B01D639DB500FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B6AA1D639DB400FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08CD8B851B338A7500F7E530;
+			remoteInfo = TradeItIosEmsApi;
+		};
+		75D7B6B21D639DB500FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B6AA1D639DB400FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08CD8B901B338A7500F7E530;
+			remoteInfo = TradeItIosEmsApiTests;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75D7B6A71D639C9800FC9DB8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				75D7B6A41D639C9800FC9DB8 /* TradeItIosAdSdk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		75D7B6621D639B9D00FC9DB8 /* ExampleGitSubmodule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleGitSubmodule.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,8 +119,9 @@
 		75D7B6741D639B9D00FC9DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D7B6761D639B9D00FC9DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TradeItIosTicketSDK.xcodeproj; path = submodules/TradeItIosTicketSdk/TradeItIosTicketSDK.xcodeproj; sourceTree = "<group>"; };
-		75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TradeItIosEmsApi.xcodeproj; path = submodules/TradeItIosEmsApi/TradeItIosEmsApi.xcodeproj; sourceTree = "<group>"; };
 		75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TradeItIosAdSdk.xcodeproj; path = submodules/TradeItIosAdSdk/TradeItIosAdSdk.xcodeproj; sourceTree = "<group>"; };
+		75D7B6AA1D639DB400FC9DB8 /* TradeItIosEmsApi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TradeItIosEmsApi.xcodeproj; path = submodules/TradeItIosEmsApi/TradeItIosEmsApi.xcodeproj; sourceTree = "<group>"; };
+		75D7B7211D63A8E000FC9DB8 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +129,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D7B7221D63A8E000FC9DB8 /* LocalAuthentication.framework in Frameworks */,
+				75D7B6B41D639DC500FC9DB8 /* libTradeItIosEmsApi.a in Frameworks */,
+				75D7B6A91D639CA200FC9DB8 /* libTradeItIosTicketSDK.a in Frameworks */,
+				75D7B6A31D639C9800FC9DB8 /* TradeItIosAdSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +142,9 @@
 		75D7B6591D639B9D00FC9DB8 = {
 			isa = PBXGroup;
 			children = (
+				75D7B7211D63A8E000FC9DB8 /* LocalAuthentication.framework */,
+				75D7B6AA1D639DB400FC9DB8 /* TradeItIosEmsApi.xcodeproj */,
 				75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */,
-				75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */,
 				75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */,
 				75D7B6641D639B9D00FC9DB8 /* ExampleGitSubmodule */,
 				75D7B6631D639B9D00FC9DB8 /* Products */,
@@ -161,15 +193,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75D7B68B1D639C3800FC9DB8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				75D7B6911D639C3800FC9DB8 /* libTradeItIosEmsApi.a */,
-				75D7B6931D639C3800FC9DB8 /* TradeItIosEmsApiTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		75D7B6951D639C4200FC9DB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +200,15 @@
 				75D7B69E1D639C4200FC9DB8 /* TradeItIosAdSdkTests.xctest */,
 				75D7B6A01D639C4200FC9DB8 /* ExampleApp.app */,
 				75D7B6A21D639C4200FC9DB8 /* ExampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D7B6AB1D639DB400FC9DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B6B11D639DB500FC9DB8 /* libTradeItIosEmsApi.a */,
+				75D7B6B31D639DB500FC9DB8 /* TradeItIosEmsApiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,10 +223,12 @@
 				75D7B65E1D639B9D00FC9DB8 /* Sources */,
 				75D7B65F1D639B9D00FC9DB8 /* Frameworks */,
 				75D7B6601D639B9D00FC9DB8 /* Resources */,
+				75D7B6A71D639C9800FC9DB8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				75D7B6A61D639C9800FC9DB8 /* PBXTargetDependency */,
 			);
 			name = ExampleGitSubmodule;
 			productName = ExampleGitSubmodule;
@@ -232,8 +266,8 @@
 					ProjectRef = 75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */;
 				},
 				{
-					ProductGroup = 75D7B68B1D639C3800FC9DB8 /* Products */;
-					ProjectRef = 75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
+					ProductGroup = 75D7B6AB1D639DB400FC9DB8 /* Products */;
+					ProjectRef = 75D7B6AA1D639DB400FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
 				},
 				{
 					ProductGroup = 75D7B67D1D639BFD00FC9DB8 /* Products */;
@@ -269,20 +303,6 @@
 			remoteRef = 75D7B6881D639BFD00FC9DB8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		75D7B6911D639C3800FC9DB8 /* libTradeItIosEmsApi.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libTradeItIosEmsApi.a;
-			remoteRef = 75D7B6901D639C3800FC9DB8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		75D7B6931D639C3800FC9DB8 /* TradeItIosEmsApiTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = TradeItIosEmsApiTests.xctest;
-			remoteRef = 75D7B6921D639C3800FC9DB8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		75D7B69C1D639C4200FC9DB8 /* TradeItIosAdSdk.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -309,6 +329,20 @@
 			fileType = wrapper.cfbundle;
 			path = ExampleAppUITests.xctest;
 			remoteRef = 75D7B6A11D639C4200FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B6B11D639DB500FC9DB8 /* libTradeItIosEmsApi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTradeItIosEmsApi.a;
+			remoteRef = 75D7B6B01D639DB500FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B6B31D639DB500FC9DB8 /* TradeItIosEmsApiTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TradeItIosEmsApiTests.xctest;
+			remoteRef = 75D7B6B21D639DB500FC9DB8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -338,6 +372,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75D7B6A61D639C9800FC9DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TradeItIosAdSdk;
+			targetProxy = 75D7B6A51D639C9800FC9DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		75D7B66E1D639B9D00FC9DB8 /* Main.storyboard */ = {
@@ -445,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ExampleGitSubmodule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TradeIt.ExampleGitSubmodule;
@@ -456,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ExampleGitSubmodule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TradeIt.ExampleGitSubmodule;

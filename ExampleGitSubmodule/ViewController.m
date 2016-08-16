@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <TradeItIosTicketSDK/TradeItTicketController.h>
 
 @interface ViewController ()
 
@@ -22,6 +23,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)launch:(id)sender {
+    [TradeItTicketController showAuthenticationWithApiKey:@"test-ad"
+                                           viewController:self
+                                                withDebug:YES
+                                             onCompletion:nil];
 }
 
 @end
