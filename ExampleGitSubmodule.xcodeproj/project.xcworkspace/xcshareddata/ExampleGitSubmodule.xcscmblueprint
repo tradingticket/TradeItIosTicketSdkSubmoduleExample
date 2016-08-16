@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "99A86A572B8EDDA313F40FCB3864483E6BA01606" : 0,
+    "B285F7EF5C45B799CC50AC660502A7947C4FEA11" : 0,
+    "94C865BE9F712BC9890FE45245127ACBFD30BFA3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C1BA616B-2E32-4A14-A33A-C96158D6E282",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "99A86A572B8EDDA313F40FCB3864483E6BA01606" : "ExampleGitSubmodule\/submodules\/TradeItIosEmsApi\/",
+    "B285F7EF5C45B799CC50AC660502A7947C4FEA11" : "ExampleGitSubmodule\/submodules\/TradeItIosTicketSdk\/",
+    "94C865BE9F712BC9890FE45245127ACBFD30BFA3" : "ExampleGitSubmodule\/submodules\/TradeItIosAdSdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ExampleGitSubmodule",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ExampleGitSubmodule.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tradingticket\/TradeItIosAdSdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94C865BE9F712BC9890FE45245127ACBFD30BFA3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tradingticket\/TradeItIosEmsApi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99A86A572B8EDDA313F40FCB3864483E6BA01606"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tradingticket\/TradeItIosTicketSdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B285F7EF5C45B799CC50AC660502A7947C4FEA11"
+    }
+  ]
+}

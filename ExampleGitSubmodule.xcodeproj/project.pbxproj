@@ -15,6 +15,72 @@
 		75D7B6751D639B9D00FC9DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B6731D639B9D00FC9DB8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		75D7B6841D639BFD00FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9A8CF501B4EFACB000207B9;
+			remoteInfo = TradeItIosTicketSDK;
+		};
+		75D7B6861D639BFD00FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9A8CF5B1B4EFACB000207B9;
+			remoteInfo = TradeItIosTicketSDKTests;
+		};
+		75D7B6881D639BFD00FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9A8D0C21B4F0F56000207B9;
+			remoteInfo = FullViewResources;
+		};
+		75D7B6901D639C3800FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08CD8B851B338A7500F7E530;
+			remoteInfo = TradeItIosEmsApi;
+		};
+		75D7B6921D639C3800FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 08CD8B901B338A7500F7E530;
+			remoteInfo = TradeItIosEmsApiTests;
+		};
+		75D7B69B1D639C4200FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7517A3971D4A945500D52880;
+			remoteInfo = TradeItIosAdSdk;
+		};
+		75D7B69D1D639C4200FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7517A3A11D4A945500D52880;
+			remoteInfo = TradeItIosAdSdkTests;
+		};
+		75D7B69F1D639C4200FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7519E3D81D591B6A0031DF50;
+			remoteInfo = ExampleApp;
+		};
+		75D7B6A11D639C4200FC9DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7519E3EB1D591B6B0031DF50;
+			remoteInfo = ExampleAppUITests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		75D7B6621D639B9D00FC9DB8 /* ExampleGitSubmodule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleGitSubmodule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D7B6661D639B9D00FC9DB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -26,6 +92,9 @@
 		75D7B6711D639B9D00FC9DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D7B6741D639B9D00FC9DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75D7B6761D639B9D00FC9DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TradeItIosTicketSDK.xcodeproj; path = submodules/TradeItIosTicketSdk/TradeItIosTicketSDK.xcodeproj; sourceTree = "<group>"; };
+		75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TradeItIosEmsApi.xcodeproj; path = submodules/TradeItIosEmsApi/TradeItIosEmsApi.xcodeproj; sourceTree = "<group>"; };
+		75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TradeItIosAdSdk.xcodeproj; path = submodules/TradeItIosAdSdk/TradeItIosAdSdk.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +111,9 @@
 		75D7B6591D639B9D00FC9DB8 = {
 			isa = PBXGroup;
 			children = (
+				75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */,
+				75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */,
+				75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */,
 				75D7B6641D639B9D00FC9DB8 /* ExampleGitSubmodule */,
 				75D7B6631D639B9D00FC9DB8 /* Products */,
 			);
@@ -77,6 +149,36 @@
 				75D7B6661D639B9D00FC9DB8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75D7B67D1D639BFD00FC9DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B6851D639BFD00FC9DB8 /* libTradeItIosTicketSDK.a */,
+				75D7B6871D639BFD00FC9DB8 /* TradeItIosTicketSDKTests.xctest */,
+				75D7B6891D639BFD00FC9DB8 /* TradeItIosTicketSDK.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D7B68B1D639C3800FC9DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B6911D639C3800FC9DB8 /* libTradeItIosEmsApi.a */,
+				75D7B6931D639C3800FC9DB8 /* TradeItIosEmsApiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D7B6951D639C4200FC9DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D7B69C1D639C4200FC9DB8 /* TradeItIosAdSdk.framework */,
+				75D7B69E1D639C4200FC9DB8 /* TradeItIosAdSdkTests.xctest */,
+				75D7B6A01D639C4200FC9DB8 /* ExampleApp.app */,
+				75D7B6A21D639C4200FC9DB8 /* ExampleAppUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,12 +226,92 @@
 			mainGroup = 75D7B6591D639B9D00FC9DB8;
 			productRefGroup = 75D7B6631D639B9D00FC9DB8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 75D7B6951D639C4200FC9DB8 /* Products */;
+					ProjectRef = 75D7B6941D639C4200FC9DB8 /* TradeItIosAdSdk.xcodeproj */;
+				},
+				{
+					ProductGroup = 75D7B68B1D639C3800FC9DB8 /* Products */;
+					ProjectRef = 75D7B68A1D639C3800FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
+				},
+				{
+					ProductGroup = 75D7B67D1D639BFD00FC9DB8 /* Products */;
+					ProjectRef = 75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				75D7B6611D639B9D00FC9DB8 /* ExampleGitSubmodule */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		75D7B6851D639BFD00FC9DB8 /* libTradeItIosTicketSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTradeItIosTicketSDK.a;
+			remoteRef = 75D7B6841D639BFD00FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B6871D639BFD00FC9DB8 /* TradeItIosTicketSDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TradeItIosTicketSDKTests.xctest;
+			remoteRef = 75D7B6861D639BFD00FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B6891D639BFD00FC9DB8 /* TradeItIosTicketSDK.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TradeItIosTicketSDK.bundle;
+			remoteRef = 75D7B6881D639BFD00FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B6911D639C3800FC9DB8 /* libTradeItIosEmsApi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTradeItIosEmsApi.a;
+			remoteRef = 75D7B6901D639C3800FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B6931D639C3800FC9DB8 /* TradeItIosEmsApiTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TradeItIosEmsApiTests.xctest;
+			remoteRef = 75D7B6921D639C3800FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B69C1D639C4200FC9DB8 /* TradeItIosAdSdk.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TradeItIosAdSdk.framework;
+			remoteRef = 75D7B69B1D639C4200FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B69E1D639C4200FC9DB8 /* TradeItIosAdSdkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TradeItIosAdSdkTests.xctest;
+			remoteRef = 75D7B69D1D639C4200FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B6A01D639C4200FC9DB8 /* ExampleApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ExampleApp.app;
+			remoteRef = 75D7B69F1D639C4200FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		75D7B6A21D639C4200FC9DB8 /* ExampleAppUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExampleAppUITests.xctest;
+			remoteRef = 75D7B6A11D639C4200FC9DB8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		75D7B6601D639B9D00FC9DB8 /* Resources */ = {

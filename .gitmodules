@@ -1,0 +1,9 @@
+[submodule "submodules/TradeItIosTicketSdk"]
+	path = submodules/TradeItIosTicketSdk
+	url = git@github.com:tradingticket/TradeItIosTicketSdk.git
+[submodule "submodules/TradeItIosEmsApi"]
+	path = submodules/TradeItIosEmsApi
+	url = git@github.com:tradingticket/TradeItIosEmsApi.git
+[submodule "submodules/TradeItIosAdSdk"]
+	path = submodules/TradeItIosAdSdk
+	url = git@github.com:tradingticket/TradeItIosAdSdk.git
