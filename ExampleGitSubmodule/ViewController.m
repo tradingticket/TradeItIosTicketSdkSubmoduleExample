@@ -1,13 +1,6 @@
-//
-//  ViewController.m
-//  ExampleGitSubmodule
-//
-//  Created by James Robert Somers on 8/16/16.
-//  Copyright © 2016 TradeIt. All rights reserved.
-//
-
 #import "ViewController.h"
 #import <TradeItIosTicketSDK/TradeItTicketController.h>
+#import <TradeItIosAdSdk/TradeItIosAdSdk-Swift.h>
 
 @interface ViewController ()
 
@@ -17,17 +10,9 @@ NSString *const API_KEY = @"tradeit-test-api-key";
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (IBAction)launch:(id)sender {
+    TradeItAdConfig.debug = true;
+    TradeItAdConfig.apiKey = API_KEY;
     [TradeItTicketController showAuthenticationWithApiKey:API_KEY
                                            viewController:self
                                                 withDebug:YES

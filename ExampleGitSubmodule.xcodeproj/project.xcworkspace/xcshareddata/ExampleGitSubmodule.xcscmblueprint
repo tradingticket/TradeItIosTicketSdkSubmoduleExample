@@ -1,17 +1,20 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FF3E218B991E4C23FB365307B308610BE9E80B73",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "99A86A572B8EDDA313F40FCB3864483E6BA01606" : 0,
-    "B285F7EF5C45B799CC50AC660502A7947C4FEA11" : 0,
-    "94C865BE9F712BC9890FE45245127ACBFD30BFA3" : 0
+    "94C865BE9F712BC9890FE45245127ACBFD30BFA3" : 0,
+    "FF3E218B991E4C23FB365307B308610BE9E80B73" : 0,
+    "B285F7EF5C45B799CC50AC660502A7947C4FEA11" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C1BA616B-2E32-4A14-A33A-C96158D6E282",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "99A86A572B8EDDA313F40FCB3864483E6BA01606" : "ExampleGitSubmodule\/submodules\/TradeItIosEmsApi\/",
-    "B285F7EF5C45B799CC50AC660502A7947C4FEA11" : "ExampleGitSubmodule\/submodules\/TradeItIosTicketSdk\/",
-    "94C865BE9F712BC9890FE45245127ACBFD30BFA3" : "ExampleGitSubmodule\/submodules\/TradeItIosAdSdk\/"
+    "94C865BE9F712BC9890FE45245127ACBFD30BFA3" : "ExampleGitSubmodule\/submodules\/TradeItIosAdSdk\/",
+    "FF3E218B991E4C23FB365307B308610BE9E80B73" : "ExampleGitSubmodule\/",
+    "B285F7EF5C45B799CC50AC660502A7947C4FEA11" : "ExampleGitSubmodule\/submodules\/TradeItIosTicketSdk\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ExampleGitSubmodule",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -31,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tradingticket\/TradeItIosTicketSdk.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B285F7EF5C45B799CC50AC660502A7947C4FEA11"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tradingticket\/TradeItIosTicketSdkSubmoduleExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF3E218B991E4C23FB365307B308610BE9E80B73"
     }
   ]
 }
