@@ -14,10 +14,10 @@
 		75D7B6721D639B9D00FC9DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B6711D639B9D00FC9DB8 /* Assets.xcassets */; };
 		75D7B6751D639B9D00FC9DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B6731D639B9D00FC9DB8 /* LaunchScreen.storyboard */; };
 		75D7B6A31D639C9800FC9DB8 /* TradeItIosAdSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B69C1D639C4200FC9DB8 /* TradeItIosAdSdk.framework */; };
-		75D7B6A41D639C9800FC9DB8 /* TradeItIosAdSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B69C1D639C4200FC9DB8 /* TradeItIosAdSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		75D7B6A91D639CA200FC9DB8 /* libTradeItIosTicketSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B6851D639BFD00FC9DB8 /* libTradeItIosTicketSDK.a */; };
 		75D7B6B41D639DC500FC9DB8 /* libTradeItIosEmsApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B6B11D639DB500FC9DB8 /* libTradeItIosEmsApi.a */; };
 		75D7B7221D63A8E000FC9DB8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D7B7211D63A8E000FC9DB8 /* LocalAuthentication.framework */; };
+		FAD3FD2B1D63EF4B00EC2CAE /* TradeItIosTicketSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 75D7B6891D639BFD00FC9DB8 /* TradeItIosTicketSDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +91,27 @@
 			remoteGlobalIDString = 08CD8B901B338A7500F7E530;
 			remoteInfo = TradeItIosEmsApiTests;
 		};
+		FAD3FD0E1D63D7E400EC2CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B6AA1D639DB400FC9DB8 /* TradeItIosEmsApi.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 08CD8B841B338A7500F7E530;
+			remoteInfo = TradeItIosEmsApi;
+		};
+		FAD3FD101D63E0D400EC2CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A8CF4F1B4EFACB000207B9;
+			remoteInfo = TradeItIosTicketSDK;
+		};
+		FAD3FD291D63EB7900EC2CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D7B67C1D639BFD00FC9DB8 /* TradeItIosTicketSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A9A8D0C11B4F0F56000207B9;
+			remoteInfo = FullViewResources;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,7 +121,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				75D7B6A41D639C9800FC9DB8 /* TradeItIosAdSdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +249,9 @@
 			);
 			dependencies = (
 				75D7B6A61D639C9800FC9DB8 /* PBXTargetDependency */,
+				FAD3FD111D63E0D400EC2CAE /* PBXTargetDependency */,
+				FAD3FD0F1D63D7E400EC2CAE /* PBXTargetDependency */,
+				FAD3FD2A1D63EB7900EC2CAE /* PBXTargetDependency */,
 			);
 			name = ExampleGitSubmodule;
 			productName = ExampleGitSubmodule;
@@ -355,6 +378,7 @@
 				75D7B6751D639B9D00FC9DB8 /* LaunchScreen.storyboard in Resources */,
 				75D7B6721D639B9D00FC9DB8 /* Assets.xcassets in Resources */,
 				75D7B6701D639B9D00FC9DB8 /* Main.storyboard in Resources */,
+				FAD3FD2B1D63EF4B00EC2CAE /* TradeItIosTicketSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +402,21 @@
 			isa = PBXTargetDependency;
 			name = TradeItIosAdSdk;
 			targetProxy = 75D7B6A51D639C9800FC9DB8 /* PBXContainerItemProxy */;
+		};
+		FAD3FD0F1D63D7E400EC2CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TradeItIosEmsApi;
+			targetProxy = FAD3FD0E1D63D7E400EC2CAE /* PBXContainerItemProxy */;
+		};
+		FAD3FD111D63E0D400EC2CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TradeItIosTicketSDK;
+			targetProxy = FAD3FD101D63E0D400EC2CAE /* PBXContainerItemProxy */;
+		};
+		FAD3FD2A1D63EB7900EC2CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FullViewResources;
+			targetProxy = FAD3FD291D63EB7900EC2CAE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,6 +565,7 @@
 				75D7B67B1D639B9D00FC9DB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
