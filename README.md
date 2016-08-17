@@ -20,6 +20,6 @@ git submodule add git@github.com:tradingticket/TradeItIosAdSdk.git submodules/Tr
 
 ##### Build Phase
 The only tricky one is the `.bundle` from Derived Data. 
-You can go to `Window > Project` and hit the arrow next to the delete button to open a Finder window to the Derived Data folder.
+An easy way to add that is finding `TradeItIosTicketSDK.xcodeproj > Products > TradeItIosticketSDK.bundle` in project explorer and dragging it to the `Copy Bundle Resources` list.
 
 ![Build Phase settings](https://github.com/tradingticket/TradeItIosTicketSdkSubmoduleExample/raw/master/BuildPhases.png)
