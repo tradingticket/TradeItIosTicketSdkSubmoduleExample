@@ -13,6 +13,8 @@
 
 @end
 
+NSString *const API_KEY = @"tradeit-test-api-key";
+
 @implementation ViewController
 
 - (void)viewDidLoad {
@@ -26,7 +28,7 @@
 }
 
 - (IBAction)launch:(id)sender {
-    [TradeItTicketController showAuthenticationWithApiKey:@"test-ad"
+    [TradeItTicketController showAuthenticationWithApiKey:API_KEY
                                            viewController:self
                                                 withDebug:YES
                                              onCompletion:nil];
